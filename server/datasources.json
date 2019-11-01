@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "control_acces": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "control_access",
+    "password": "",
+    "name": "control_acces",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
