@@ -40,7 +40,6 @@ jobs:
 
       # run eslint!
       - run:  ./node_modules/eslint/bin/eslint.js .
-      - run:  npm run test
   deploy_to_staging:
     docker:
       - image: google/cloud-sdk
