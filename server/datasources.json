@@ -3,14 +3,14 @@
     "name": "db",
     "connector": "memory"
   },
-  "control_acces": {
+  "control_access": {
     "host": "localhost",
-    "port": 3306,
+    "port": 5433,
     "url": "",
     "database": "control_access",
-    "password": "",
-    "name": "control_acces",
-    "user": "root",
-    "connector": "mysql"
+    "password": "postgres",
+    "name": "control_access",
+    "user": "postgres",
+    "connector": "postgresql"
   }
 }

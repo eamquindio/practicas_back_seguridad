@@ -1,12 +1,16 @@
 {
   "name": "Usuario",
-  "plural": "usuarios",  
+  "plural": "usuarios",
   "base": "User",
-  "hidden": ["realm", "emailVerified", "verificationToken"],
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
+  "hidden": [
+    "realm",
+    "emailVerified",
+    "verificationToken"
+  ],
   "properties": {
     "nombre": {
       "type": "string",

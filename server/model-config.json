@@ -18,7 +18,7 @@
     "public": false
   },
   "AccessToken": {
-    "dataSource": "control_acces",
+    "dataSource": "control_access",
     "public": true
   },
   "ACL": {
@@ -26,18 +26,18 @@
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "control_acces",
+    "dataSource": "control_access",
     "public": true,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "control_acces",
+    "dataSource": "control_access",
     "public": true
   },
   "Usuario": {
-    "dataSource": "control_acces",
+    "dataSource": "control_access",
     "public": true
   }
 }
