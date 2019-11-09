@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "db",
+    "dataSource": "db2",
     "public": false
   },
   "AccessToken": {
@@ -22,7 +22,7 @@
     "public": true
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "db2",
     "public": false
   },
   "RoleMapping": {

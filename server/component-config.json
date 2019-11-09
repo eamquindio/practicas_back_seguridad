@@ -4,7 +4,7 @@
     "generateOperationScopedModels": true
   },
   "loopback-component-auto-migrate": {
-    "enabled": true,
+    "enabled": false,
     "raiseError": false,
     "migration": "auto-migrate-data",
     "models": [
