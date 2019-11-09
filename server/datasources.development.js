@@ -15,8 +15,12 @@ module.exports = {
     url: '',
     database: DB_NAME,
     password: DB_PASS,
-    name: DB_NAME,
+    name: 'db',
     user: DB_USER,
     connector: 'postgresql',
+  },
+  db2: {
+    name: 'db2',
+    connector: 'memory',
   },
 };
