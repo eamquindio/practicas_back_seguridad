@@ -20,5 +20,5 @@ module.exports = function(Usuario) {
       accepts: {arg: 'id', type: 'array'},
       returns: {arg: 'data', type: 'array', root: true},
     }
-);
+  );
 };
